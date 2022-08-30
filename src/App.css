@@ -39,3 +39,6 @@
 .active{
   color: #4489f1;
 }
+.accordion-button::after{
+  filter: invert(1);
+}

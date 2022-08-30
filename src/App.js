@@ -44,8 +44,7 @@ function App() {
       <Route path='/' render={() => <Navigate to="/home" />} />
       <Route path="/home" element={<Home  Mode={Mode}/>} />
       <Route path="/about" element={<About Mode={Mode} showAlert={showAlert}/>} />
-      <Route path="/textForm" element={<TextForm showAlert={showAlert} heading="Enter the text to analze" Mode={Mode}/>} />
-     
+      <Route path="/textForm" element={<TextForm showAlert={showAlert} heading="Try TextUtils-word counter,character counter,remove extra spaces" Mode={Mode}/>} />
     </Routes>
     </BrowserRouter>
     </>
